@@ -1,0 +1,62 @@
+[
+  {
+    "ablation": "full",
+    "model": "cnn",
+    "accuracy": 0.8573333333333333,
+    "macro_f1": 0.8560475893536083
+  },
+  {
+    "ablation": "full",
+    "model": "lstm",
+    "accuracy": 0.7406666666666667,
+    "macro_f1": 0.7410741263141185
+  },
+  {
+    "ablation": "no_formatting",
+    "model": "cnn",
+    "accuracy": 0.8606666666666667,
+    "macro_f1": 0.858725418003494
+  },
+  {
+    "ablation": "no_formatting",
+    "model": "lstm",
+    "accuracy": 0.7466666666666667,
+    "macro_f1": 0.7533093918311622
+  },
+  {
+    "ablation": "no_punctuation",
+    "model": "cnn",
+    "accuracy": 0.8073333333333333,
+    "macro_f1": 0.8092248713284066
+  },
+  {
+    "ablation": "no_punctuation",
+    "model": "lstm",
+    "accuracy": 0.676,
+    "macro_f1": 0.6784142436918871
+  },
+  {
+    "ablation": "length_capped_100w",
+    "model": "cnn",
+    "accuracy": 0.7506666666666667,
+    "macro_f1": 0.7510371341235086
+  },
+  {
+    "ablation": "length_capped_100w",
+    "model": "lstm",
+    "accuracy": 0.7353333333333333,
+    "macro_f1": 0.7389676415167614
+  },
+  {
+    "ablation": "shuffled_words",
+    "model": "cnn",
+    "accuracy": 0.8133333333333334,
+    "macro_f1": 0.812267887944558
+  },
+  {
+    "ablation": "shuffled_words",
+    "model": "lstm",
+    "accuracy": 0.75,
+    "macro_f1": 0.7524998794921247
+  }
+]

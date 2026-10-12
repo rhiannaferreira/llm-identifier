@@ -1,0 +1,35 @@
+{
+  "note": "Fraction of examples whose first-12-token prompt skeleton occurs for only one generator. High values mean input-only accuracy reflects corpus construction, not model identity.",
+  "per_generator": {
+    "DeepSeek": {
+      "n_examples": 2999,
+      "n_distinct_templates": 2998,
+      "n_exclusive_templates": 0,
+      "frac_examples_with_exclusive_template": 0.0
+    },
+    "Claude": {
+      "n_examples": 2999,
+      "n_distinct_templates": 2998,
+      "n_exclusive_templates": 0,
+      "frac_examples_with_exclusive_template": 0.0
+    },
+    "Llama": {
+      "n_examples": 2999,
+      "n_distinct_templates": 2986,
+      "n_exclusive_templates": 4,
+      "frac_examples_with_exclusive_template": 0.001333777925975325
+    },
+    "ChatGPT": {
+      "n_examples": 2999,
+      "n_distinct_templates": 2998,
+      "n_exclusive_templates": 7,
+      "frac_examples_with_exclusive_template": 0.002334111370456819
+    },
+    "Gemini": {
+      "n_examples": 2999,
+      "n_distinct_templates": 2998,
+      "n_exclusive_templates": 1,
+      "frac_examples_with_exclusive_template": 0.00033344448149383126
+    }
+  }
+}
